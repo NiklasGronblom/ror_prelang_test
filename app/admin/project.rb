@@ -1,4 +1,5 @@
 ActiveAdmin.register Project do
+  permit_params :name, :abbreviation, :description, :body
 
 
   # See permitted parameters documentation:
