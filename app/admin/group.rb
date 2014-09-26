@@ -1,4 +1,5 @@
 ActiveAdmin.register Group do
+  permit_params :name, :abbreviation, :description, :body
 
 
   # See permitted parameters documentation:
